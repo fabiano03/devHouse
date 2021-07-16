@@ -1,0 +1,44 @@
+/** {
+    font-family: Arial, Helvetica, sans-serif;
+    alterar a fonte de todo o documento
+}*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(226, 224, 224);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+
+}
+
+#id {
+
+}
+
+.icon-social {
+    width: 50px;
+}
+
+header {
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    color: lemonchiffon;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
