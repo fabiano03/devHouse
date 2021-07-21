@@ -13,10 +13,6 @@ header {
     align-items: center;
 }
 
-.menu {
-
-}
-
 .menu a{
     color: #3f3f6c;
     margin-left: 50px;
@@ -48,16 +44,43 @@ header {
     justify-content: space-around;
   }
   
-  .banner h1 {
+.banner h1 {
     color: #1e266d;
     font-size: 46px;
   }
-  .banner * {
+
+.banner * {
     margin-top: 10px;
   }
-  
-  .button-padrao {
+
+.button-padrao {
     border-radius: 40px;
     padding: 10px;
     border-color: none;
   }
+
+#menu-mobile {
+  display: none;
+}
+
+@media (max-width: 465px ) {
+  .menu {
+    display: none;
+  }
+  
+  .atendimento {
+    display: none;
+  }
+
+  .banner img {
+    display: none;
+  }
+
+  #menu-mobile {
+    display: block;
+  }
+  
+  header {
+    justify-content: space-between;
+  }
+}
