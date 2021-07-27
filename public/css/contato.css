@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "roboto";
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+}
+
+.menu a{
+    color: #3f3f6c;
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.atendimento button {
+    background-color: #3751ff;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.atendimento a {
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.banner {
+    padding: 40px;
+    background-color: #f2f9ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+.banner h1 {
+    color: #1e266d;
+    font-size: 46px;
+  }
+
+.banner * {
+    margin-top: 10px;
+  }
+
+.button-padrao {
+    border-radius: 40px;
+    padding: 10px;
+    border-color: none;
+  }
+
+#menu-mobile {
+  display: none;
+}
+
+section#contato h1 {
+    color: #1e266d;
+    font-size: 32px;
+}
+
+section#contato {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 60px;
+    height: 50vh;
+}
+
+#nome-completo {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.input-padrao {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    margin: 10px 0px;
+    font-size: 22px;
+    border-radius: 4px;
+    border-color: gray;
+    transition: 1s;
+}
+
+.button-padrao {
+    background-color: #3751ff;
+    border-radius: 4px;
+    height: 40px;
+}
+
+.input-padrao:focus {
+    border: 3px solid green;
+    outline: 0;
+}
+  
+
+
+
+
+
+
+@media (max-width: 465px ) {
+  .menu {
+    display: none;
+  }
+  
+  .atendimento {
+    display: none;
+  }
+
+  .banner img {
+    display: none;
+  }
+
+  #menu-mobile {
+    display: block;
+  }
+  
+  header {
+    justify-content: space-between;
+  }
+
+  
+
+  
+}
