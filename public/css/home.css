@@ -63,6 +63,12 @@ header {
   display: none;
 }
 
+.chat {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
 @media (max-width: 465px ) {
   .menu {
     display: none;
@@ -76,6 +82,7 @@ header {
     display: none;
   }
 
+  
   #menu-mobile {
     display: block;
   }
